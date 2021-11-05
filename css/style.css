@@ -1,14 +1,11 @@
 body {
-    background-color: #000;
+    background-color: #d4caca;
 }
-
-.container {
+.container{
     width: 1000px;
     height: 550px;
-    margin: 20px auto;
-    max-width: 100%;
+    margin: 20px, auto;
 }
-
 .calculator {
     width: 320px;
     height: 520px;
@@ -16,17 +13,28 @@ body {
     position: relative;
     top: 20px;
     border-radius: 5px;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #00000030;
+    background-color: #9b9797;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#result {
-    height: 100px;
+.result {
+    height: 120px;
+    background-color: #797171;
+
+}
+#history{
+    text-align: right;
+    padding-top: 20px;
+    height: 20px;
+    margin: 0 20px;
+    font-size: 15px;
+    color: white;
+
 }
 
 #output {
     text-align: right;
-    height: 20px;
+    height: 60px;
     margin: 10px 20px;
     font-size: 30px;
     font-weight: bold;
@@ -34,14 +42,19 @@ body {
 
 #keyboard {
     height: 400px;
-    background-color: yellow;
 }
-
+.gray{
+    background-color: #c5bfbf;
+}
+.white{
+    background-color: #fafafa;
+}
 td {
     width: 50px;
     height: 50px;
     margin: 15px;
     float: left;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: bold;
+    cursor: pointer;
 }
